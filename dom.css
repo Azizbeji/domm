@@ -1,0 +1,56 @@
+.iphone{
+   display: flex;
+   border-radius: 10px;
+   transition: all 0.4s ease;
+   box-shadow: inset;
+
+   
+}
+
+.text-danger{
+    color: red;
+}
+button{
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background-color: #7d2ae8;
+    transition: all 0.2s ease;
+}
+button:active{
+    transform: scale(0.96);
+}
+.a+{
+    display: flex;
+  
+}
+.pl{
+    /* padding-left: 39%; */
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px black solid; */
+    justify-items: center;
+    
+
+}
+ /* .fa-plus{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    justify-items: center;
+}
+.fa-plus:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,
+    0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+.fa-minus{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+.fa-minus:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,
+    0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+} */ */
+.fa-plus{
+    border: 1px black solid;
+}
